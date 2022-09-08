@@ -26,6 +26,8 @@ contract myERC20 is ERC20 {
     //////////////////////////////////////////////////////////////*/
     constructor()
         // ex: Rari Dai Stablecoin Vault
-        ERC20("myCoin ", "ticker   ", 18);
+        ERC20("myCoin ", "ticker   ", 18){
+            
+        }
     
 }
